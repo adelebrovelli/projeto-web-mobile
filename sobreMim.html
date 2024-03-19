@@ -3,18 +3,34 @@
     <head>
         <meta charset="UTF-8"/> 
         <title> sobre mim </title>
+        <style>
+            * {
+                font-family: Griffin, Helvetica, sans-serif;
+            }
+
+            @font-face {
+                font-family: Griffin;
+  src: url('Griffin.otf') format('opentype');
+  
+}
+#centro{
+    display: flex; justify-content: center;
+}
+
+
+        </style>
     </head>
     <body>
     <article>
         <header>
-            <p> sobre mim </p>
+            <p id="centro"> sobre mim </p>
         </header>
         <p>
             me chamo Adele e sou estudante de ciências da computação na UNICAP e design na UFPE. desde que entrei na(s) faculdade(s) busquei integrar todo meu conhecimento e acabei descobrindo que criar códigos é como criar arte! 
             gosto muito de desenvolvimento de sites, me interesso muito em design de interfaces digitais. gosto também de brincar com <i>Processing</i> vez ou outra. gosto de cartazes, estamparia(área a qual estagio atualmente), gravura. <br>
             em suma: ainda estou conhecendo tudo. eu gosto mesmo é do experimental!
         </p>
-        <p>
+        <p id="centro">
             além daqui, você também pode me encontrar em:
             <ul>
                 <li>
@@ -28,7 +44,7 @@
                 </li>
             </ul>
         </p>
-        <footer>
+        <footer id="centro">
 <a href="index.html" style="color:gray;font-size:15px"> volte pro começo</a>
         </footer>
     </article>

@@ -12,11 +12,20 @@
                 font-family: Griffin;
   src: url('Griffin.otf') format('opentype');
 }
+
+section, #centro{
+    display: flex; justify-content: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 15%;
+}
         </style>
     </head>
-    <body id="inicial">
+    <body>
         <header>
-            <p> bem-vindo! aqui terá:
+            <p id="centro"> bem-vindo! aqui terá:
                 <ul>
                     <li>
                         um pouco de mim
@@ -28,7 +37,8 @@
                         o que faço :) 
                     </li>
                 </ul>
-                 localize-se abaixo! </p>
+                 <p id="centro">localize-se abaixo!</p> 
+                </p>
             <nav>
                 <section>
                     <a href="sobreMim.html" style="color: black"> <h1>sobre mim</h1> </a>
@@ -46,6 +56,6 @@
             
             
         </header>
-        <footer style="color:gray;font-size:15px">este site foi feito em 2024  ✰ </footer>
+        <footer style="color:gray;font-size:15px" id="centro">este site foi feito em 2024  ✰ </footer>
     </body>
 </html>
